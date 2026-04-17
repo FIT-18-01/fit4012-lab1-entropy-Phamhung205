@@ -25,4 +25,4 @@ Nắm vững lý thuyết Entropy, Redundancy và hoàn thiện kỹ năng cài 
 
 ## 4. Kết luận
 - Khó khăn: Việc xử lý các trường hợp số âm trong thuật toán Euclid mở rộng và định dạng số thập phân cho Entropy.
--Điều giúp hiểu rõ: Việc trực quan hóa các bước chia dư trong thuật toán Euclid và so sánh sự khác biệt giữa chuỗi `aaaa` (dễ đoán) với chuỗi ngẫu nhiên đã giúp em nắm bắt khái niệm nhanh hơn.
+- Điều giúp hiểu rõ: Việc trực quan hóa các bước chia dư trong thuật toán Euclid và so sánh sự khác biệt giữa chuỗi `aaaa` (dễ đoán) với chuỗi ngẫu nhiên đã giúp em nắm bắt khái niệm nhanh hơn.
