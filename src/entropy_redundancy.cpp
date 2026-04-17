@@ -28,9 +28,12 @@ double calculate_redundancy(const string &text, int alphabet_size = 256) {
         return 0.0;
     }
     
+    // H_max của bảng mã ASCII 256 ký tự
     double max_entropy = log2(static_cast<double>(alphabet_size));
     double actual_entropy = calculate_entropy(text);
-    double redundancy = max_entropy - actual_entropy;
+    
+    // Áp dụng công thức tính độ dư thừa tương đối: R = 1 - (H / H_max)
+    double redundancy = 1.0 - (actual_entropy / max_entropy);
     
     return redundancy;
 }
