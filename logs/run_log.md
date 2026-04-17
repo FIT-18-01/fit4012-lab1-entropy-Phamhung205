@@ -11,4 +11,4 @@
 - [x] Đã chạy với `6 9`
 
 ## Điều em học được từ bài lab
-Qua bài lab này, em đã hiểu rõ cách dùng Entropy để đo lường độ ngẫu nhiên của dữ liệu; chuỗi càng ít lặp lại thì Entropy càng cao và tính dư thừa càng thấp. Đồng thời, em nắm vững điều kiện để tồn tại nghịch đảo Modulo là số đó và modulo phải nguyên tố cùng nhau ($gcd(a, m) = 1$), điều này giải thích lý do tại sao cặp 6 9 không có kết quả. Việc thực hành trực tiếp giúp em củng cố tư duy toán học cần thiết cho các thuật toán mã hóa trong an toàn thông tin.
+Qua bài lab này, em đã hiểu rõ cách dùng Entropy để đo lường độ ngẫu nhiên của dữ liệu; chuỗi càng ít lặp lại thì Entropy càng cao và tính dư thừa càng thấp. Đồng thời, em nắm vững điều kiện để tồn tại nghịch đảo Modulo là số đó và modulo phải nguyên tố cùng nhau 
