@@ -11,10 +11,10 @@ Nắm vững lý thuyết Entropy, Redundancy và hoàn thiện kỹ năng cài 
 ## 3. Kết quả chính
 ### 3.1 Entropy và redundancy
 | Input | Entropy | Redundancy | Nhận xét |
-|:---|---:|---:|:---|
-| aaaa | 0.00 | 100% | Chuỗi lặp lại hoàn toàn, không chứa thông tin mới. |
-| abcd | 2.00 | thấp | Các ký tự xuất hiện với xác suất bằng nhau, độ hỗn loạn cao. |
-| hello world | ~2.85 | Trung bình | Có sự lặp lại nhẹ (ký tự 'l', 'o'), cấu trúc ngôn ngữ tự nhiên. |
+|---|---:|---:|---|
+| aaaa |0.0000|8.0000|entropy thấp, redundancy cao|
+| abcd |2.0000|6.0000|entropy cao hơn `aaaa`|
+| hello world |2.84535|5.15465|entropy và redundancy được tính hợp lệ|
 
 ### 3.2 Modulo inverse
 | a | m | Kết quả mong đợi | Kết quả chương trình |
